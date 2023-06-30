@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lading Page - Autos Servicios</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="min-h-screen bg-slate-100 text-sm text-slate-900">
+    <div>
+
+        <nav class="fixed left-0 top-0 right-0 bg-slate-100 text-sky-900 z-20">
+            <ul class="flex items-center justify-end py-2">
+                <li>
+                    <a class="no-underline transition duration-300 ease-in-out cursor-pointer px-4 py-1 hover:underline hover:underline-offset-2" href="#home">Inicio</a>
+                </li>
+
+                <li>
+                    <a class="no-underline transition duration-300 ease-in-out cursor-pointer px-4 py-1 hover:underline hover:underline-offset-2" href="#about">Nosotros</a>
+                </li>
+                
+                <li>
+                    <a class="no-underline transition duration-300 ease-in-out cursor-pointer px-4 py-1 hover:underline hover:underline-offset-2" href="#service">Servicios</a>
+                </li>
+                <li>
+                    <a id="btn-nav-contactanos" class="no-underline transition duration-300 ease-in-out cursor-pointer px-4 py-1 hover:underline hover:underline-offset-2" href="#contact">Contactanos</a>
+                </li>
+
+
+
+            </ul>
+        </nav>
+
+        <section id="home" class="relative px-12 py-28">
+            <article class="flex flex-wrap items-center justify-between">
+                <div class="order-2 md:order-1 w-full md:w-7/12">
+                    <h2 class="text-4xl text-sky-900 font-semibold tracking-tight mb-2">
+                        Servicios de <br>
+                        reparación y <br>
+                        mantenimiento</h2>
+                    <p class="max-w-xl text-justify">¡Descubre nuestros servicios de reparación y mantenimiento mecánico!
+                        Confía en nuestro equipo de expertos para solucionar cualquier problema con tu vehículo. Calidad,
+                        eficiencia y precios competitivos garantizados. ¡Contáctanos hoy mismo!</p>
+                    <button
+                        id="btn-section-contactanos"
+                        class="bg-orange-300 text-orange-700 font-semibold uppercase transition duration-300 ease-in-out hover:scale-95 px-6 py-1 my-4 rounded shadow-md">Contactanos</button>
+                </div>
+                <div class="order-1 md:order-2 w-48 md:w-4/12 mx-auto">
+                    <img src="./image/undraw_automobile_repair_ywci.svg" alt="">
+                </div>
+            </article>
+            <ul
+                class="absolute flex flex-wrap items-center justify-around max-w-xl w-full left-0 -bottom-10 right-0 m-auto z-10 px-10">
+                <li class="mb-2">
+                    <button
+                    class="border-2 border-sky-900 text-sky-900 bg-slate-100 uppercase rounded-md shadow-md transition duration-300 ease-in-out px-6 py-4 hover:border-none hover:bg-orange-300 hover:text-orange-700 hover:scale-95">
+                    <span class="font-semibold">
+                        Reparaciones
+                    </span>
+                </button>
+                </li>
+                <li class="mb-2">
+                    <button
+                    class="border-2 border-sky-900 text-sky-900 bg-slate-100 uppercase rounded-md shadow-md transition duration-300 ease-in-out px-6 py-4 hover:border-none hover:bg-orange-300 hover:text-orange-700 hover:scale-95">
+                    <span class="font-semibold">
+                        Mejorar
+                    </span>
+                </button>
+                </li>
+                <li class="mb-2">
+                    <button
+                    class="border-2 border-sky-900 text-sky-900 bg-slate-100 uppercase rounded-md shadow-md transition duration-300 ease-in-out px-6 py-4 hover:border-none hover:bg-orange-300 hover:text-orange-700 hover:scale-95">
+                    <span class="font-semibold">
+                        Mantenimiento
+                    </span>
+                </button>
+                </li>
+            </ul>
+        </section>
+
+        <section id="about" class="flex flex-wrap items-center justify-between bg-sky-900 text-sky-200 px-12 py-28">
+            <div class="order-1 w-48 md:w-4/12 mx-auto">
+                <img src="./image/undraw_electric_car_b-7-hl.svg" alt="">
+            </div>
+            <div class="order-2  w-full md:w-7/12">
+                <h2 class="text-4xl text-sky-100 font-semibold tracking-tight mb-2">¡Calidad y Profesionalismo!</h2>
+                <p class="max-w-xl text-justify">Nuestros servicios destacan por ofrecer la máxima calidad y un enfoque altamente profesional. Contamos con un equipo experimentado y tecnología de vanguardia para superar sus expectativas en cada proyecto.</p>
+                    <button
+                    class="bg-orange-300 text-orange-700 font-semibold uppercase transition duration-300 ease-in-out hover:scale-95 px-6 py-1 my-4 rounded shadow-md">Saber Más</button>
+            </div>
+            
+        </section>
+        
+        <section id="service" class="flex flex-wrap items-center justify-between px-12 py-28">
+            
+            <div class="order-2 md:order-1 w-full md:w-7/12">
+                <h2 class="text-4xl text-sky-900 font-semibold tracking-tight mb-2">
+                    Brindamos <br> 
+                    Servicios Profesional a Domicilio</h2>
+                <p class="max-w-xl text-justify">Nuestro objetivo es llevar la excelencia directamente a su hogar. Con un equipo altamente capacitado y dedicado, brindamos servicios de calidad y confianza en la comodidad de su propio espacio.</p>
+                    <button
+                    class="bg-orange-300 text-orange-700 font-semibold uppercase transition duration-300 ease-in-out hover:scale-95 px-6 py-1 my-4 rounded shadow-md">Saber Más</button>
+            </div>
+            <div class="order-1 md:order-2 w-48 md:w-4/12 mx-auto">
+                <img src="./image/undraw_towing_re_wesa.svg" alt="">
+            </div>
+        </section>
+        <footer class="w-full flex flex-wrap items-center justify-around bg-sky-900 text-sky-200 px-12 py-12">
+            <button id="btn-footer-contactanos" class="font-semibold uppercase no-underline transition duration-300 ease-in-out hover:underline hover:underline-offset-2 m-2">Contactanos</button> 
+            <ul class="flex items-center justify-around m-2">
+                <li class="mx-1"><a class="h-6 w-6 block p-1" style="background-image: url(./icon/icons8-facebook-nuevo.svg);" href="#"></a></li>
+                <li class="mx-1"><a class="h-6 w-6 block p-1" style="background-image: url(./icon/icons8-twitter.svg);" href="#"></a></li>
+                <li class="mx-1"><a class="h-6 w-6 block p-1" style="background-image: url(./icon/icons8-instagram.svg);" href="#"></a></li>
+            </ul>
+            <h4 class="font-semibold m-2">2023 All Rights Reserved - Miguel</h4>
+        </footer>
+    </div>
+
+    <!-- <div class="fixed top-0 right-0 left-0 bottom-0 flex flex-col items-center justify-center bg-slate-950/80 text-sky-100 z-50 p-12">
+        <button id="clear-modal" class="absolute top-2 right-3 h-6 w-6 bg-white text-red-600 font-bold rounded-full">X</button>
+        <h2 class="text-4xl font-semibold tracking-tight mb-2">
+            Brindamos <br> 
+            Servicios Profesional a Domicilio</h2>
+        <p class="max-w-xl text-justify">Nuestro objetivo es llevar la excelencia directamente a su hogar. Con un equipo altamente capacitado y dedicado, brindamos servicios de calidad y confianza en la comodidad de su propio espacio.</p>
+    </div> -->
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
